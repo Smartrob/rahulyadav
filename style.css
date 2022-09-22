@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/rahul_banner1.jpg") no-repeat center;
+    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -366,13 +366,13 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 85%;
+    width: 60%;
 }
 .skills-content .right .js::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .php::before{
-    width: 80%;
+    width: 50%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
@@ -380,7 +380,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "things i learnt";
+    content: "who with me";
 }
 .teams .carousel .card{
     background: #222;
@@ -678,17 +678,3 @@ footer span a:hover{
         line-height: 38px;
     }
 }
-
-#teams{
-    padding-bottom: 0px;
-}
-
-#more{
-    display: none;
-}
-/* 
-.clients{
-    background-color: #B7C4CF;
-} */
-
-
